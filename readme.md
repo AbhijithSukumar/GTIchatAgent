@@ -23,7 +23,7 @@ Connectivity: Model Context Protocol (MCP)
 
 ⚙️ Setup
 Prerequisites
-.NET 8.0 or 9.0 SDK
+.NET 10 SDK
 
 A Google Gemini API Key
 
