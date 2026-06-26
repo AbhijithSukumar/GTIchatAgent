@@ -1,0 +1,1000 @@
+{
+  "orders": [
+    {
+      "orderId": "ORD-001",
+      "userId": 10,
+      "product": "Laptop",
+      "status": "Delivered"
+    },
+    {
+      "orderId": "ORD-002",
+      "userId": 10,
+      "product": "Mouse",
+      "status": "In Transit"
+    },
+    {
+      "orderId": "ORD-003",
+      "userId": 11,
+      "product": "Monitor",
+      "status": "Pending"
+    },
+    {
+      "orderId": "ORD-004",
+      "userId": 12,
+      "product": "Keyboard",
+      "status": "Delivered"
+    },
+    {
+      "orderId": "ORD-005",
+      "userId": 13,
+      "product": "Headset",
+      "status": "Cancelled"
+    },
+    {
+      "orderId": "ORD-006",
+      "userId": 14,
+      "product": "Webcam",
+      "status": "In Transit"
+    },
+    {
+      "orderId": "ORD-007",
+      "userId": 15,
+      "product": "Desk Lamp",
+      "status": "Delivered"
+    },
+    {
+      "orderId": "ORD-008",
+      "userId": 16,
+      "product": "Chair",
+      "status": "Processing"
+    },
+    {
+      "orderId": "ORD-009",
+      "userId": 17,
+      "product": "Table",
+      "status": "Pending"
+    },
+    {
+      "orderId": "ORD-010",
+      "userId": 18,
+      "product": "Printer",
+      "status": "Delivered"
+    },
+    {
+      "orderId": "ORD-011",
+      "userId": 19,
+      "product": "Router",
+      "status": "In Transit"
+    },
+    {
+      "orderId": "ORD-012",
+      "userId": 20,
+      "product": "USB Cable",
+      "status": "Delivered"
+    },
+    {
+      "orderId": "ORD-013",
+      "userId": 10,
+      "product": "SSD",
+      "status": "Processing"
+    },
+    {
+      "orderId": "ORD-014",
+      "userId": 11,
+      "product": "RAM",
+      "status": "Pending"
+    },
+    {
+      "orderId": "ORD-015",
+      "userId": 12,
+      "product": "GPU",
+      "status": "Delivered"
+    },
+    {
+      "orderId": "ORD-016",
+      "userId": 13,
+      "product": "CPU",
+      "status": "Cancelled"
+    },
+    {
+      "orderId": "ORD-017",
+      "userId": 14,
+      "product": "Case",
+      "status": "In Transit"
+    },
+    {
+      "orderId": "ORD-018",
+      "userId": 15,
+      "product": "Cooler",
+      "status": "Delivered"
+    },
+    {
+      "orderId": "ORD-019",
+      "userId": 16,
+      "product": "Power Supply",
+      "status": "Processing"
+    },
+    {
+      "orderId": "ORD-020",
+      "userId": 17,
+      "product": "Software",
+      "status": "Delivered"
+    }
+  ],
+  "shipments": [
+    {
+      "shipmentId": "SHP-001",
+      "orderId": "ORD-001",
+      "carrier": "FedEx",
+      "location": "New York"
+    },
+    {
+      "shipmentId": "SHP-002",
+      "orderId": "ORD-002",
+      "carrier": "UPS",
+      "location": "Chicago"
+    },
+    {
+      "shipmentId": "SHP-003",
+      "orderId": "ORD-003",
+      "carrier": "DHL",
+      "location": "Miami"
+    },
+    {
+      "shipmentId": "SHP-004",
+      "orderId": "ORD-004",
+      "carrier": "FedEx",
+      "location": "Seattle"
+    },
+    {
+      "shipmentId": "SHP-005",
+      "orderId": "ORD-005",
+      "carrier": "USPS",
+      "location": "Austin"
+    },
+    {
+      "shipmentId": "SHP-006",
+      "orderId": "ORD-006",
+      "carrier": "UPS",
+      "location": "Denver"
+    },
+    {
+      "shipmentId": "SHP-007",
+      "orderId": "ORD-007",
+      "carrier": "FedEx",
+      "location": "Boston"
+    },
+    {
+      "shipmentId": "SHP-008",
+      "orderId": "ORD-008",
+      "carrier": "DHL",
+      "location": "Atlanta"
+    },
+    {
+      "shipmentId": "SHP-009",
+      "orderId": "ORD-009",
+      "carrier": "UPS",
+      "location": "Dallas"
+    },
+    {
+      "shipmentId": "SHP-010",
+      "orderId": "ORD-010",
+      "carrier": "FedEx",
+      "location": "Phoenix"
+    },
+    {
+      "shipmentId": "SHP-011",
+      "orderId": "ORD-011",
+      "carrier": "USPS",
+      "location": "Portland"
+    },
+    {
+      "shipmentId": "SHP-012",
+      "orderId": "ORD-012",
+      "carrier": "DHL",
+      "location": "Denver"
+    },
+    {
+      "shipmentId": "SHP-013",
+      "orderId": "ORD-013",
+      "carrier": "UPS",
+      "location": "New York"
+    },
+    {
+      "shipmentId": "SHP-014",
+      "orderId": "ORD-014",
+      "carrier": "FedEx",
+      "location": "Chicago"
+    },
+    {
+      "shipmentId": "SHP-015",
+      "orderId": "ORD-015",
+      "carrier": "USPS",
+      "location": "Miami"
+    },
+    {
+      "shipmentId": "SHP-016",
+      "orderId": "ORD-016",
+      "carrier": "DHL",
+      "location": "Seattle"
+    },
+    {
+      "shipmentId": "SHP-017",
+      "orderId": "ORD-017",
+      "carrier": "UPS",
+      "location": "Austin"
+    },
+    {
+      "shipmentId": "SHP-018",
+      "orderId": "ORD-018",
+      "carrier": "FedEx",
+      "location": "Boston"
+    },
+    {
+      "shipmentId": "SHP-019",
+      "orderId": "ORD-019",
+      "carrier": "DHL",
+      "location": "Atlanta"
+    },
+    {
+      "shipmentId": "SHP-020",
+      "orderId": "ORD-020",
+      "carrier": "USPS",
+      "location": "Dallas"
+    }
+  ],
+  "inventory": [
+    {
+      "itemId": "INV-001",
+      "name": "Laptop",
+      "stock": 50,
+      "warehouseId": "WH-A"
+    },
+    {
+      "itemId": "INV-002",
+      "name": "Mouse",
+      "stock": 200,
+      "warehouseId": "WH-B"
+    },
+    {
+      "itemId": "INV-003",
+      "name": "Monitor",
+      "stock": 30,
+      "warehouseId": "WH-A"
+    },
+    {
+      "itemId": "INV-004",
+      "name": "Keyboard",
+      "stock": 100,
+      "warehouseId": "WH-C"
+    },
+    {
+      "itemId": "INV-005",
+      "name": "Headset",
+      "stock": 80,
+      "warehouseId": "WH-B"
+    },
+    {
+      "itemId": "INV-006",
+      "name": "Webcam",
+      "stock": 40,
+      "warehouseId": "WH-A"
+    },
+    {
+      "itemId": "INV-007",
+      "name": "Desk Lamp",
+      "stock": 120,
+      "warehouseId": "WH-C"
+    },
+    {
+      "itemId": "INV-008",
+      "name": "Chair",
+      "stock": 25,
+      "warehouseId": "WH-B"
+    },
+    {
+      "itemId": "INV-009",
+      "name": "Table",
+      "stock": 15,
+      "warehouseId": "WH-C"
+    },
+    {
+      "itemId": "INV-010",
+      "name": "Printer",
+      "stock": 10,
+      "warehouseId": "WH-A"
+    },
+    {
+      "itemId": "INV-011",
+      "name": "Router",
+      "stock": 60,
+      "warehouseId": "WH-B"
+    },
+    {
+      "itemId": "INV-012",
+      "name": "USB Cable",
+      "stock": 500,
+      "warehouseId": "WH-A"
+    },
+    {
+      "itemId": "INV-013",
+      "name": "SSD",
+      "stock": 70,
+      "warehouseId": "WH-B"
+    },
+    {
+      "itemId": "INV-014",
+      "name": "RAM",
+      "stock": 150,
+      "warehouseId": "WH-C"
+    },
+    {
+      "itemId": "INV-015",
+      "name": "GPU",
+      "stock": 20,
+      "warehouseId": "WH-A"
+    },
+    {
+      "itemId": "INV-016",
+      "name": "CPU",
+      "stock": 35,
+      "warehouseId": "WH-B"
+    },
+    {
+      "itemId": "INV-017",
+      "name": "Case",
+      "stock": 45,
+      "warehouseId": "WH-C"
+    },
+    {
+      "itemId": "INV-018",
+      "name": "Cooler",
+      "stock": 65,
+      "warehouseId": "WH-A"
+    },
+    {
+      "itemId": "INV-019",
+      "name": "Power Supply",
+      "stock": 85,
+      "warehouseId": "WH-B"
+    },
+    {
+      "itemId": "INV-020",
+      "name": "Software",
+      "stock": 1000,
+      "warehouseId": "WH-C"
+    }
+  ],
+  "warehouses": [
+    {
+      "warehouseId": "WH-A",
+      "location": "New York",
+      "capacity": 1000
+    },
+    {
+      "warehouseId": "WH-B",
+      "location": "Chicago",
+      "capacity": 1500
+    },
+    {
+      "warehouseId": "WH-C",
+      "location": "Seattle",
+      "capacity": 800
+    },
+    {
+      "warehouseId": "WH-D",
+      "location": "Austin",
+      "capacity": 1200
+    },
+    {
+      "warehouseId": "WH-E",
+      "location": "Phoenix",
+      "capacity": 900
+    },
+    {
+      "warehouseId": "WH-F",
+      "location": "Atlanta",
+      "capacity": 1100
+    },
+    {
+      "warehouseId": "WH-G",
+      "location": "Boston",
+      "capacity": 700
+    },
+    {
+      "warehouseId": "WH-H",
+      "location": "Dallas",
+      "capacity": 1300
+    },
+    {
+      "warehouseId": "WH-I",
+      "location": "Denver",
+      "capacity": 600
+    },
+    {
+      "warehouseId": "WH-J",
+      "location": "Miami",
+      "capacity": 1400
+    },
+    {
+      "warehouseId": "WH-K",
+      "location": "Portland",
+      "capacity": 850
+    },
+    {
+      "warehouseId": "WH-L",
+      "location": "San Francisco",
+      "capacity": 2000
+    },
+    {
+      "warehouseId": "WH-M",
+      "location": "Los Angeles",
+      "capacity": 1800
+    },
+    {
+      "warehouseId": "WH-N",
+      "location": "Las Vegas",
+      "capacity": 500
+    },
+    {
+      "warehouseId": "WH-O",
+      "location": "Houston",
+      "capacity": 1600
+    },
+    {
+      "warehouseId": "WH-P",
+      "location": "Detroit",
+      "capacity": 950
+    },
+    {
+      "warehouseId": "WH-Q",
+      "location": "Philadelphia",
+      "capacity": 750
+    },
+    {
+      "warehouseId": "WH-R",
+      "location": "Charlotte",
+      "capacity": 1050
+    },
+    {
+      "warehouseId": "WH-S",
+      "location": "San Diego",
+      "capacity": 1150
+    },
+    {
+      "warehouseId": "WH-T",
+      "location": "San Jose",
+      "capacity": 1250
+    }
+  ],
+  "returns": [
+    {
+      "returnId": "RET-001",
+      "orderId": "ORD-001",
+      "reason": "Damaged",
+      "status": "Approved"
+    },
+    {
+      "returnId": "RET-002",
+      "orderId": "ORD-005",
+      "reason": "Wrong Item",
+      "status": "Pending"
+    },
+    {
+      "returnId": "RET-003",
+      "orderId": "ORD-016",
+      "reason": "Defective",
+      "status": "Rejected"
+    },
+    {
+      "returnId": "RET-004",
+      "orderId": "ORD-003",
+      "reason": "Changed Mind",
+      "status": "Approved"
+    },
+    {
+      "returnId": "RET-005",
+      "orderId": "ORD-008",
+      "reason": "Damaged",
+      "status": "Pending"
+    },
+    {
+      "returnId": "RET-006",
+      "orderId": "ORD-010",
+      "reason": "Wrong Size",
+      "status": "Approved"
+    },
+    {
+      "returnId": "RET-007",
+      "orderId": "ORD-012",
+      "reason": "Late Delivery",
+      "status": "Approved"
+    },
+    {
+      "returnId": "RET-008",
+      "orderId": "ORD-014",
+      "reason": "Defective",
+      "status": "Pending"
+    },
+    {
+      "returnId": "RET-009",
+      "orderId": "ORD-019",
+      "reason": "Changed Mind",
+      "status": "Rejected"
+    },
+    {
+      "returnId": "RET-010",
+      "orderId": "ORD-002",
+      "reason": "Damaged",
+      "status": "Approved"
+    },
+    {
+      "returnId": "RET-011",
+      "orderId": "ORD-004",
+      "reason": "Wrong Item",
+      "status": "Pending"
+    },
+    {
+      "returnId": "RET-012",
+      "orderId": "ORD-006",
+      "reason": "Defective",
+      "status": "Approved"
+    },
+    {
+      "returnId": "RET-013",
+      "orderId": "ORD-007",
+      "reason": "Changed Mind",
+      "status": "Approved"
+    },
+    {
+      "returnId": "RET-014",
+      "orderId": "ORD-009",
+      "reason": "Damaged",
+      "status": "Pending"
+    },
+    {
+      "returnId": "RET-015",
+      "orderId": "ORD-011",
+      "reason": "Wrong Size",
+      "status": "Rejected"
+    },
+    {
+      "returnId": "RET-016",
+      "orderId": "ORD-013",
+      "reason": "Late Delivery",
+      "status": "Approved"
+    },
+    {
+      "returnId": "RET-017",
+      "orderId": "ORD-015",
+      "reason": "Defective",
+      "status": "Pending"
+    },
+    {
+      "returnId": "RET-018",
+      "orderId": "ORD-017",
+      "reason": "Changed Mind",
+      "status": "Approved"
+    },
+    {
+      "returnId": "RET-019",
+      "orderId": "ORD-018",
+      "reason": "Damaged",
+      "status": "Approved"
+    },
+    {
+      "returnId": "RET-020",
+      "orderId": "ORD-020",
+      "reason": "Wrong Item",
+      "status": "Pending"
+    }
+  ],
+  "suppliers": [
+    {
+      "supplierId": "SUP-001",
+      "name": "Global Tech",
+      "rating": 4.5
+    },
+    {
+      "supplierId": "SUP-002",
+      "name": "Fast Logistics",
+      "rating": 4.2
+    },
+    {
+      "supplierId": "SUP-003",
+      "name": "BuildRight",
+      "rating": 4.8
+    },
+    {
+      "supplierId": "SUP-004",
+      "name": "Eco Supply",
+      "rating": 3.9
+    },
+    {
+      "supplierId": "SUP-005",
+      "name": "Tech Hub",
+      "rating": 4.7
+    },
+    {
+      "supplierId": "SUP-006",
+      "name": "Reliable Parts",
+      "rating": 4.1
+    },
+    {
+      "supplierId": "SUP-007",
+      "name": "Mega Supply",
+      "rating": 4.3
+    },
+    {
+      "supplierId": "SUP-008",
+      "name": "Prime Goods",
+      "rating": 4.6
+    },
+    {
+      "supplierId": "SUP-009",
+      "name": "Select Supply",
+      "rating": 3.8
+    },
+    {
+      "supplierId": "SUP-010",
+      "name": "Quality Tech",
+      "rating": 4.9
+    },
+    {
+      "supplierId": "SUP-011",
+      "name": "Quick Parts",
+      "rating": 4.0
+    },
+    {
+      "supplierId": "SUP-012",
+      "name": "Easy Supply",
+      "rating": 3.7
+    },
+    {
+      "supplierId": "SUP-013",
+      "name": "Top Tech",
+      "rating": 4.4
+    },
+    {
+      "supplierId": "SUP-014",
+      "name": "Smart Goods",
+      "rating": 4.5
+    },
+    {
+      "supplierId": "SUP-015",
+      "name": "Pro Supply",
+      "rating": 4.8
+    },
+    {
+      "supplierId": "SUP-016",
+      "name": "Core Tech",
+      "rating": 4.2
+    },
+    {
+      "supplierId": "SUP-017",
+      "name": "Advance Parts",
+      "rating": 4.1
+    },
+    {
+      "supplierId": "SUP-018",
+      "name": "Prime Tech",
+      "rating": 4.3
+    },
+    {
+      "supplierId": "SUP-019",
+      "name": "Elite Supply",
+      "rating": 4.7
+    },
+    {
+      "supplierId": "SUP-020",
+      "name": "Best Goods",
+      "rating": 4.6
+    }
+  ],
+  "drivers": [
+    {
+      "driverId": "DRV-001",
+      "name": "John Doe",
+      "status": "Available"
+    },
+    {
+      "driverId": "DRV-002",
+      "name": "Jane Smith",
+      "status": "On Trip"
+    },
+    {
+      "driverId": "DRV-003",
+      "name": "Bob Brown",
+      "status": "On Break"
+    },
+    {
+      "driverId": "DRV-004",
+      "name": "Alice White",
+      "status": "Available"
+    },
+    {
+      "driverId": "DRV-005",
+      "name": "Charlie Green",
+      "status": "On Trip"
+    },
+    {
+      "driverId": "DRV-006",
+      "name": "Eve Black",
+      "status": "Available"
+    },
+    {
+      "driverId": "DRV-007",
+      "name": "Frank Blue",
+      "status": "On Trip"
+    },
+    {
+      "driverId": "DRV-008",
+      "name": "Grace Yellow",
+      "status": "On Break"
+    },
+    {
+      "driverId": "DRV-009",
+      "name": "Henry Red",
+      "status": "Available"
+    },
+    {
+      "driverId": "DRV-010",
+      "name": "Ivy Orange",
+      "status": "On Trip"
+    },
+    {
+      "driverId": "DRV-011",
+      "name": "Jack Purple",
+      "status": "Available"
+    },
+    {
+      "driverId": "DRV-012",
+      "name": "Kelly Cyan",
+      "status": "On Trip"
+    },
+    {
+      "driverId": "DRV-013",
+      "name": "Liam Magenta",
+      "status": "On Break"
+    },
+    {
+      "driverId": "DRV-014",
+      "name": "Mia Lime",
+      "status": "Available"
+    },
+    {
+      "driverId": "DRV-015",
+      "name": "Noah Teal",
+      "status": "On Trip"
+    },
+    {
+      "driverId": "DRV-016",
+      "name": "Olivia Navy",
+      "status": "Available"
+    },
+    {
+      "driverId": "DRV-017",
+      "name": "Paul Silver",
+      "status": "On Trip"
+    },
+    {
+      "driverId": "DRV-018",
+      "name": "Quinn Gold",
+      "status": "On Break"
+    },
+    {
+      "driverId": "DRV-019",
+      "name": "Riley Pink",
+      "status": "Available"
+    },
+    {
+      "driverId": "DRV-020",
+      "name": "Sam Brown",
+      "status": "On Trip"
+    }
+  ],
+  "vehicles": [
+    {
+      "vehicleId": "VEH-001",
+      "type": "Truck",
+      "status": "Active"
+    },
+    {
+      "vehicleId": "VEH-002",
+      "type": "Van",
+      "status": "Maintenance"
+    },
+    {
+      "vehicleId": "VEH-003",
+      "type": "Truck",
+      "status": "Active"
+    },
+    {
+      "vehicleId": "VEH-004",
+      "type": "Van",
+      "status": "Active"
+    },
+    {
+      "vehicleId": "VEH-005",
+      "type": "Truck",
+      "status": "Active"
+    },
+    {
+      "vehicleId": "VEH-006",
+      "type": "Van",
+      "status": "Maintenance"
+    },
+    {
+      "vehicleId": "VEH-007",
+      "type": "Truck",
+      "status": "Active"
+    },
+    {
+      "vehicleId": "VEH-008",
+      "type": "Van",
+      "status": "Active"
+    },
+    {
+      "vehicleId": "VEH-009",
+      "type": "Truck",
+      "status": "Active"
+    },
+    {
+      "vehicleId": "VEH-010",
+      "type": "Van",
+      "status": "Active"
+    },
+    {
+      "vehicleId": "VEH-011",
+      "type": "Truck",
+      "status": "Maintenance"
+    },
+    {
+      "vehicleId": "VEH-012",
+      "type": "Van",
+      "status": "Active"
+    },
+    {
+      "vehicleId": "VEH-013",
+      "type": "Truck",
+      "status": "Active"
+    },
+    {
+      "vehicleId": "VEH-014",
+      "type": "Van",
+      "status": "Active"
+    },
+    {
+      "vehicleId": "VEH-015",
+      "type": "Truck",
+      "status": "Maintenance"
+    },
+    {
+      "vehicleId": "VEH-016",
+      "type": "Van",
+      "status": "Active"
+    },
+    {
+      "vehicleId": "VEH-017",
+      "type": "Truck",
+      "status": "Active"
+    },
+    {
+      "vehicleId": "VEH-018",
+      "type": "Van",
+      "status": "Active"
+    },
+    {
+      "vehicleId": "VEH-019",
+      "type": "Truck",
+      "status": "Active"
+    },
+    {
+      "vehicleId": "VEH-020",
+      "type": "Van",
+      "status": "Maintenance"
+    }
+  ],
+  "alerts": [
+    {
+      "alertId": "ALT-001",
+      "message": "High priority shipment delay",
+      "severity": "High"
+    },
+    {
+      "alertId": "ALT-002",
+      "message": "Low inventory in warehouse WH-A",
+      "severity": "Medium"
+    },
+    {
+      "alertId": "ALT-003",
+      "message": "Vehicle maintenance due",
+      "severity": "Low"
+    },
+    {
+      "alertId": "ALT-004",
+      "message": "Driver shortage reported",
+      "severity": "High"
+    },
+    {
+      "alertId": "ALT-005",
+      "message": "Warehouse capacity exceeded",
+      "severity": "Medium"
+    },
+    {
+      "alertId": "ALT-006",
+      "message": "Weather delay in New York",
+      "severity": "High"
+    },
+    {
+      "alertId": "ALT-007",
+      "message": "New order pending",
+      "severity": "Low"
+    },
+    {
+      "alertId": "ALT-008",
+      "message": "Supplier delivery delayed",
+      "severity": "Medium"
+    },
+    {
+      "alertId": "ALT-009",
+      "message": "Inventory count mismatch",
+      "severity": "Medium"
+    },
+    {
+      "alertId": "ALT-010",
+      "message": "Driver fatigue warning",
+      "severity": "High"
+    },
+    {
+      "alertId": "ALT-011",
+      "message": "Vehicle breakdown",
+      "severity": "High"
+    },
+    {
+      "alertId": "ALT-012",
+      "message": "Return request approved",
+      "severity": "Low"
+    },
+    {
+      "alertId": "ALT-013",
+      "message": "Warehouse safety check",
+      "severity": "Medium"
+    },
+    {
+      "alertId": "ALT-014",
+      "message": "Shipment misrouted",
+      "severity": "High"
+    },
+    {
+      "alertId": "ALT-015",
+      "message": "Inventory stock replenished",
+      "severity": "Low"
+    },
+    {
+      "alertId": "ALT-016",
+      "message": "Supplier rating dropped",
+      "severity": "Medium"
+    },
+    {
+      "alertId": "ALT-017",
+      "message": "New warehouse opened",
+      "severity": "Low"
+    },
+    {
+      "alertId": "ALT-018",
+      "message": "Driver shift updated",
+      "severity": "Low"
+    },
+    {
+      "alertId": "ALT-019",
+      "message": "High volume expected",
+      "severity": "Medium"
+    },
+    {
+      "alertId": "ALT-020",
+      "message": "System update scheduled",
+      "severity": "Low"
+    }
+  ]
+}
